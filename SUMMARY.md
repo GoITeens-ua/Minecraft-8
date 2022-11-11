@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Олександрійський маяк](README.md)
+* [Александрійський маяк](README.md)
