@@ -38,7 +38,7 @@ layout: landing
 
 У Майнкрафті є можливість побудувати піраміду та маяк зверху.
 
-<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>1</strong></td></tr><tr><td><strong>Завдання</strong></td><td><ol><li>Побудувати піраміду з золотих блоків з центром в точці <strong>(0;-60;0),</strong> шириною основи <strong>в 11 блоків</strong> та висотою <strong>в 5 блоків</strong>, нагорі піраміди поставити маяк</li><li>Побудувати піраміду з алмазних блоків із центром в точці <strong>(0;-60;20),</strong> шириною основи <strong>в 9 блоків</strong> та висотою в <strong>4 блоки</strong>, нагорі піраміди поставити маяк</li><li>Побудувати піраміду з центром в точці <strong>(20;-60;0),</strong> шириною основи <strong>в 7 блоків</strong> та висотою <strong>в 3 блоки</strong>, нагорі піраміди поставити маяк</li></ol></td></tr><tr><td><strong>Код</strong></td><td><br><img src=".gitbook/assets/36.png" alt=""><br><img src=".gitbook/assets/35.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/image (82).png" alt=""></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>1</strong></td></tr><tr><td><strong>Завдання</strong></td><td>Побудувати піраміду з золотих блоків з центром в точці <strong>(0;-60;0),</strong> шириною основи <strong>в 11 блоків</strong> та висотою <strong>в 5 блоків</strong>, нагорі піраміди поставити маяк</td></tr><tr><td><strong>Код</strong></td><td><br><img src=".gitbook/assets/36.png" alt=""><br><img src=".gitbook/assets/35.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/image (82).png" alt=""></td></tr></tbody></table>
 
 ### Магія від маяка
 
@@ -55,7 +55,7 @@ layout: landing
 
 Для того, щоб очистити об'єкт, необхідно замість його блоків розмістити блоки повітря.
 
-<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>2</strong></td></tr><tr><td><strong>Завдання</strong></td><td><ol><li>Замініть блоки збудованої піраміди блоками повітря</li></ol></td></tr><tr><td><strong>Код</strong></td><td><img src=".gitbook/assets/37.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/clear03.gif" alt=""></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>2</strong></td></tr><tr><td><strong>Завдання</strong></td><td>Замініть блоки збудованої піраміди блоками повітря</td></tr><tr><td><strong>Код</strong></td><td><img src=".gitbook/assets/37.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/clear03.gif" alt=""></td></tr></tbody></table>
 
 ### [Використання циклу](https://makecode.com/\_HH7RcYaH2Uid)
 
@@ -63,17 +63,11 @@ layout: landing
 
 <figure><img src=".gitbook/assets/38.png" alt=""><figcaption></figcaption></figure>
 
-Для того, щоб значно скоротити кількість блоків, які ми використовуємо, додамо до конструкції цикл. **Цикл із параметром** повторюється **5 разів,** і на кожному кроці виконання циклу значення лічильника змінюється **від 0 до 4** (0,1,2,3,4).
+Для того, щоб значно скоротити кількість блоків, які ми використовуємо, додамо до конструкції  **Цикл із параметром як на минулому занятті.**
 
-<table><thead><tr><th width="421.87733902616316">Код</th><th width="311">Результат</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/image (214).png" alt=""></td><td><img src=".gitbook/assets/image (208).png" alt=""></td></tr></tbody></table>
+Зробимо таку ж **піраміду**, тільки із використанням циклів:
 
-Тепер створимо та вирахуємо змінну **i**, що буде залежати від змінної-лічильника **index**.
-
-<table><thead><tr><th width="352.9305555555556">Код</th><th width="271">Результат</th></tr></thead><tbody><tr><td><img src=".gitbook/assets/image (210).png" alt=""></td><td><img src=".gitbook/assets/image (164).png" alt=""></td></tr></tbody></table>
-
-В результаті — зробимо такі самі **піраміди**, тільки із використанням циклів:
-
-<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>3</strong></td></tr><tr><td><strong>Завдання</strong></td><td><ol><li>Використовуючи цикли, побудувати піраміду з золотих блоків з центром в точці <strong>(0;-60;0),</strong> шириною основи <strong>в 11 блоків</strong> та висотою <strong>в 4 блоки</strong>, зверху такої піраміди поставити маяк</li><li>Використовуючи цикли, побудувати піраміду з алмазних блоків з центром в точці <strong>(0;-60;20),</strong> шириною основи <strong>в 9 блоків</strong> та висотою <strong>в 3 блоки,</strong> зверху такої піраміди поставити маяк</li><li>Використовуючи цикли, побудувати піраміду з центром в точці <strong>(20;-60;0),</strong> шириною основи <strong>в 7 блоків</strong> та висотою <strong>в 2 блоки</strong>, зверху такої піраміди поставити маяк.</li></ol></td></tr><tr><td><strong>Код</strong></td><td><img src=".gitbook/assets/39.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/image (215).png" alt=""></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="257.10195674562306"></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>3</strong></td></tr><tr><td><strong>Завдання</strong></td><td>Використовуючи цикли, побудувати піраміду з золотих блоків з центром в точці <strong>(0;-60;0),</strong> шириною основи <strong>в 11 блоків</strong> та висотою <strong>в 4 блоки</strong>, зверху такої піраміди поставити маяк</td></tr><tr><td><strong>Код</strong></td><td><img src=".gitbook/assets/39.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/image (215).png" alt=""></td></tr></tbody></table>
 
 ### Основа маяка
 
@@ -91,7 +85,7 @@ layout: landing
 
 ### Піраміда на основі
 
-<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>4</strong></td></tr><tr><td><strong>Завдання</strong></td><td><ol><li>Використовуючи цикли, побудувати піраміду з золотих блоків з центром в точці <strong>(0;-54;0),</strong> шириною основи <strong>в 11 блоків</strong> та висотою <strong>в 5 блоків</strong>, зверху такої піраміди поставити маяк. Під піраміду поставити блоки 11х11 та висотою 6 блоків з морських ліхтарів.</li><li>Використовуючи цикли, побудувати піраміду з алмазних блоків з центром в точці <strong>(0;-60;20),</strong> шириною основи в <strong>9 блоків</strong> та висотою <strong>в 4 блоки</strong>, зверху такої піраміди поставити маяк. Під піраміду поставити блоки 9х9 та висотою 5 блоків з морських ліхтарів.</li><li>Використовуючи цикли, побудувати піраміду з центром в точці <strong>(20;-60;0),</strong> шириною основи в 7 блоків та висотою в 3 блоки, зверху такої піраміди поставити маяк. Під піраміду поставити блоки 7х7 та висотою 4 блоки з морських ліхтарів.</li></ol></td></tr><tr><td><strong>Код</strong></td><td><img src=".gitbook/assets/41.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/image (173).png" alt=""></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="447.3333333333333"></th></tr></thead><tbody><tr><td><strong>№</strong></td><td><strong>4</strong></td></tr><tr><td><strong>Завдання</strong></td><td>Використовуючи цикли, побудувати піраміду з золотих блоків з центром в точці <strong>(0;-54;0),</strong> шириною основи <strong>в 11 блоків</strong> та висотою <strong>в 5 блоків</strong>, зверху такої піраміди поставити маяк. Під піраміду поставити блоки 11х11 та висотою 6 блоків з морських ліхтарів.</td></tr><tr><td><strong>Код</strong></td><td><img src=".gitbook/assets/41.png" alt=""></td></tr><tr><td><strong>Результат</strong></td><td><img src=".gitbook/assets/image (173).png" alt=""></td></tr></tbody></table>
 
 {% hint style="info" %}
 Середній ярус Александрійського маяка був побудований у вигляді **восьмикутника**, грані якого орієнтувалися на напрямки вітрів. Верхня частина цього ярусу декорувалася статуями, а деякі з них були флюгерами.&#x20;
@@ -103,27 +97,7 @@ layout: landing
 
 ### Функції
 
-#### Функція без параметрів <a href="#d1-84-d0-bd-d1-83-d0-ba-d1-86-d1-96-d1-8f-d0-b1-d0-b5-d0-b7-d0-bf-d0-b0-d1-80-d0-b0-d0-bc-d0-b5-d1-8" id="d1-84-d0-bd-d1-83-d0-ba-d1-86-d1-96-d1-8f-d0-b1-d0-b5-d0-b7-d0-bf-d0-b0-d1-80-d0-b0-d0-bc-d0-b5-d1-8"></a>
-
-Для того, щоб використовувати декілька елементів в рамках певного цілого, зручно використовувати такий інструмент, як функції.
-
-Для цього можемо створити функцію в меню «Функції».
-
-![](<.gitbook/assets/image (218).png>)
-
-Найпростіший варіант функції, тільки із назвою:
-
-![](<.gitbook/assets/image (194).png>)
-
-Для того, щоб функція запускала код, необхідно додати його **в середину блоку функції**.
-
-![](<.gitbook/assets/42 (1).png>)
-
-Для використання необхідно взяти блок функції та перетягнути в те місце, де ви бажаєте запустити відповідну функцію.
-
-![](<.gitbook/assets/image (186).png>)
-
-#### Функція із параметром
+На минулому занятті ми з вами працювали з **Функцією без параметрів.**
 
 Більш складний варіант — це використання **параметрів**. Коли ми можемо передавати до функції певні параметри (у нашому прикладі із Александрійським маяком — рівень, на якому починається кожен елемент).
 
@@ -159,13 +133,11 @@ layout: landing
 
 ### Роза вітрів
 
-![](<.gitbook/assets/image (213).png>)
+Ми можемо використати код з минулого заняття, але потрібно у змінній **Висота** підставити параметр **y**
 
-![](<.gitbook/assets/image (217).png>)
+<figure><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 19.26.29.png" alt=""><figcaption></figcaption></figure>
 
-![](<.gitbook/assets/image (212).png>)
-
-![](<.gitbook/assets/image (166).png>)
+<figure><img src=".gitbook/assets/Знімок екрана 2024-04-25 о 19.26.42 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Майданчик-рівень
 
